@@ -1,0 +1,26 @@
+
+Build Tree From array 
+  Idea1 :Recursive
+     levelOrder(int arr[], int i)
+      if(i<arr.length){
+        TreeNode root=new TreeNode(arr[i])
+      }
+      root.left=levelOrder(arr, 2*i+1);
+      root.right=levelOrder(arr.2*i+2);
+      
+    return  root;
+           
+  Idea 2: Using Queue (BFS) 
+      create  TreeNode with first array value 
+      insert TreeNode into queue q
+      i =1; 
+      while(i<arr.length)
+       node =q.pop
+       if(i<arr.length)
+        node.left=new TreeNode(arr[i++])
+        q.add(node.left)
+
+       if(i<arr.length)
+        node.right=new TreeNode(arr[i++])
+        q.add(node.right)  
+    end of while    
