@@ -1,0 +1,35 @@
+Use modern hasing algo for password  
+ salt the password 
+
+ password + randomly generated salt -> hasiing algo  > store generated hash and Salt in the db 
+
+
+ on entering the password getSalt from db and combine with user value and generate hash and comparw with existing value.
+
+
+
+ How to Secure MicroService 
+ OAuth2.0
+ Using API gateway
+ creating own authethication service. 
+
+ OAuth2
+    OAuth Allows the application to access the resource resides in other application   
+
+    User            PrintPhoto                      instagram           instaPhotoResource
+
+       ---PrintPhot----> 
+                            ----AuthoriseService----> 
+                              client, scope
+
+    <---------------RequetPermisssionDialogue-------- 
+    --------------Request Approved------------------->
+
+                           <---Authorization Code------
+                            getAccessToken
+                          ----Authcode clienId, Secret-->
+                          <--access token-------------
+
+
+                          -----------------Fetch Photos ---------------->
+                          <--------------Photos--------------------------                 

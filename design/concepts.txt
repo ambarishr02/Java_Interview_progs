@@ -1,0 +1,20 @@
+RTMP (Real time messaging protocol) -> written on top of tcp/ip
+
+Gossip protocol  (decentralized failure detection method)
+    Each node maintains a node membership list, which contains member IDs and heartbeat counters.
+
+    Each node periodically increments its heartbeat counter.
+
+    Each node periodically sends heartbeats to a set of random nodes, which in turn propagate to another set of nodes.
+
+    Once nodes receive heartbeats, membership list is updated to the latest info.
+
+Failure Handling (Temporary)
+    Minimum quoram approach
+        After failure detected  with gossip  protocol ,  System needs to deploy certain mechanism to ensure availability 
+         Strict quoram                              &    sloppy quoram 
+          read and write will be blocked                 choses first W healty server to complete process and update server when it comes up(Hinted handoff)   
+  
+Permanent Failures 
+   We need to impl anti-entropy protocol
+     Anti-entropy involves comparing each piece of data on replicas and updating each replica to the newest version

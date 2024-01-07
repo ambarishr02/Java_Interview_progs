@@ -1,0 +1,10 @@
+
+
+ServiceMesh
+
+Manages all service -to service communication, Platoform agnostic
+
+
+Sits near to service and manage all service-to-service communication
+MicroService communicatte b/w them
+   

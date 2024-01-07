@@ -1,0 +1,23 @@
+Multi-Master approach
+  Multiple DB to generates key  Ex : 1, 3 ,5 key will be gen  by Mysql1  , 2, 4, 6 Ex: by mysql2 , increase it K where k is number of servers 
+
+UUID (128 bit)
+  Might be Non Numaric ,  Its 128 bit long 
+  Pros :
+     No Sync is required , easy,Each server independtly invoke UUID
+
+Ticker server  (Single mysql server with auto increments)
+  Centralised ticket server 
+   Single point failure
+
+Twitter snowflake 
+signbit  timestamp datacntid machineid sqncenumber
+
+
+  41 bit-timestamp
+  5 bit- datacenter (2^5=32)
+  5 bit- machine ID
+  12 bit- sequence
+In our design, we assume ID generation servers have the same clock. This assumption might not be true when a server is running on multiple cores. The same challenge exists in multi-machine scenarios 
+
+  Time Sync issue might occure in For this network time protocol can be used 

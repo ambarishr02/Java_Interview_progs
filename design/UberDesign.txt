@@ -1,0 +1,38 @@
+Uber
+Requirements
+Driver
+    driver should be able to match with a nearby customer w.r.t his current geolocation.
+    drivers should be able to share the expected time of arrival(ETA) with the customer.
+    the driver should be able to end and start the trip.
+    the driver should be able to see all his past ride history.
+Customer
+    customers should be able to see nearby available cars.
+    customers should be able to see the ETA for the car when it is coming for pickup.
+    customers should be able to see the ETA for the destination.
+    customers should be able to share geolocation.
+    customers should be able to see all their pass ride history.
+    customers should be able to write reviews for the driver.
+
+  Questions   
+ Rides per day 
+ is it location specific 
+ Response time  (i.e. the maximum time in which a driver and customer should match)  
+
+Solutin
+
+API 
+Customer
+    getMapAndETA(userId,TripId)
+    RequestTrip(userId, strtLoc, endLoc)
+    CanCelTrip(userId,TripId)
+    tripStatus(userId,TripId)
+    rateDriver(userId,TripId)
+    updateLocation(userID, location)
+
+Driver
+    AcceptTri(userId,tripId)
+    StartTrip(userId,tripId)
+    EndTrip(userId,tripId)
+    getTripInfo(userId)
+
+

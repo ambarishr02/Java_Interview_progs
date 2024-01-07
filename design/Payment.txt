@@ -1,0 +1,7 @@
+E-commerce Payment Impl
+Functional req
+ Pay-in flow: payment system receives money from customers on behalf of sellers.
+ Pay-out flow: payment system sends money to sellers around the world.
+Non Functional 
+ Reliability and Fault tolerance 
+ A Reconciliation process - The process asynchronously verifies that the payment information across these systems is consistent.

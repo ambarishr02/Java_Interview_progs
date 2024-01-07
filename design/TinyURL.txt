@@ -1,0 +1,72 @@
+1. Read Heavy System
+2. Shoould be highly available
+3. minimal latency
+4. Non predictable
+
+ 80: 20 Cache rule
+
+ System APIs
+  createURL(originalUrl, api_dev-key, customAlias,userName, expiry)
+    deleteURL(url_key, api_dev_key)
+
+api_dev_key to achieve rate-limit
+
+1.compute uniq hash  of url (MD5/ sha256) -then encode using base64/base32 
+2.using base 64 and 6 digit len 64 power 6 = 68.7 B   
+
+Problems
+1.MD5- generates 128 bits  hash value on encoding with base64 it generates 21 character (one character 6 bits)
+but we need 6 character
+2. Same URL results same key , which not acceptable 
+3. What if parts of the URL are URL-encoded
+
+To make unique 
+we can use userId -but there aguest account
+append a increment - not feasible (incrementer logic)
+
+
+Solution
+
+Key-Genration Service (KGS) -also keep replica
+ keep a list of key before hand 
+
+ concurrency - to avoid mark the as soon as it  (Seperate table for used keys)
+
+ Keep Some keys in memory to serve to application servers 
+
+ KGS also has to make sure not to give the same key to multiple servers.
+For that, it must synchronize (or get a lock on) the data structure holding
+the keys before removing keys from it and giving them to a server.
+
+
+So need 
+1. DB  for key and url mapping
+2 DB for KGS
+
+Mapping db sharding
+key letter
+hashBased
+consistant hashing
+
+There should be cache for URLs 
+ with suitable cache eviction policy.
+
+ metrics 
+ how many times user accesed 
+ number requests etc etc..
+
+
+ security and roles 
+ private urls   -> role can be added to urls , users
+
+
+
+
+ PasteBin 
+ Paste-data and get a unique url to access it.
+ Amazon S3 store data
+ metadata database
+ 
+
+
+

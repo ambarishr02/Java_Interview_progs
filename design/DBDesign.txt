@@ -1,0 +1,65 @@
+LogStructure 
+PageOriented (Btree)
+
+key val storage.
+low latency 
+ease recovery and durability
+db_write("key1","value")
+db_read(key)
+
+store -> DBFile.txt
+
+Incase of update overwrite/append 
+
+update                              append 
+key should unique                  duplicate allowed
+lesser disk space                   more
+read can stop at first occurance    traverse in multiple occurance 
+write is slow , search for key      easy , just append at the end
+complex logic                       code is straight-forward
+
+best suites for mutable             IMmutable data     
+ random writes                      continous writes, so fast.
+
+
+ Reads 
+ Indexing to improve the perfomance
+  key  offset value 
+     this helps in going to right location very quickly.
+     using of cache to index increases the speed.
+
+     How to handle disk storage
+
+     lets divides storage into chunks 
+       active   -Db write always happens to active chunk , 
+                 on reach certain limit make it as chunk and take new active chunk 
+       chunk#  - Each chunk will have its own map file 
+       chunk#  - 
+
+ Db Reads checks map associated with chunk or active to figur out the value 
+
+    to optimse further since only in active chunk data change is happens we can run compaction backgroud process
+    on other chuks ..produce new chunk with optised values of selecteds chunk and retire the old when new optimised is ready
+
+    we can find right chunk size based on the processing speed and space .
+
+
+recovery 
+
+  since map and chunks are not going to change we write both into disk which helps to reocvery quickly
+
+
+  Concurancy
+  As its has one writer DBwrite no prob with concurrancy
+  immuatability helps in multiple reads ...
+
+
+
+
+  How to store password into db
+Method-1
+   password -> hashfunc (md5, sha-1 or bcrypt) -> hashvalueindb 
+Method-2 using salt
+ use random generated salt value with password as input to hashfunc   
+   store hashvalue  along with used salt
+ This helps in avoiding the pre-computation attack.

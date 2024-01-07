@@ -1,0 +1,19 @@
+Isolation Level	    Dirty Read	  Non-Repeatable Read	Phantom
+Read uncommitted	Yes	            Yes	                 Yes
+Read committed	    No	            Yes	                 Yes
+Repeatable read	    No	            No	                 Yes
+Snapshot	        No	            No	                 No
+Serializable	    No	            No	                 No
+
+Dirty Read and Non-Repeatable Read :  Non-repeatable read consists in reading two different committed values, whereas dirty read consists in reading a value that hasn't been committed yet
+
+Dirty read 
+ Accessing an updated value that has not been committed is considered a dirty read because it is possible for that value to be rolled back to its previous value
+
+Non-Repeatable Read
+A non-repeatable read occurs when transaction A retrieves a row, transaction B subsequently updates the row,
+ and transaction A later retrieves the same row again. Transaction A retrieves the same row twice but sees different data.
+
+Phontam Read
+ A phantom read occurs when, in the course of a transaction, two identical queries are executed, 
+ and the collection of rows returned by the second query is different from the first. 

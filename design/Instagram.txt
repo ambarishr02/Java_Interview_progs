@@ -1,0 +1,88 @@
+Read Heavy 
+Eventual consistancy is okay
+Should be highly realiable i.e Uploaded photo or video  should never be lost
+minimal latency in genarating feed
+
+
+eficient management of storage should a critical factor
+
+Main servies 
+upload and view/search photos
+
+DB:
+Image store Amazon S3
+Image meta data store 
+
+Tables 
+user  userFollow    phot  userPhoto -> we can also relation DB but due to scalability issue better to use NoSql (Cassandra)
+
+MetaData DB -Nosql
+photoId -key and metavalues object
+
+Storage Calculation for table 
+User
+UserID (4 bytes) + Name (20 bytes) + Email (32 bytes) + DateOfBirth (4
+bytes) + CreationDate (4 bytes) + LastLogin (4 bytes) = 68 bytes
+similarly for other tables 
+
+Upload takes more time than read so split reads and writes into separate services.
+
+Keep multiple copies of uploaded files to maintain relaiabilit
+
+Failover Server and maitain avialability
+
+
+Data sharding 
+
+meta-data Sharding 
+
+
+how to store photos 
+Partition based on used ID
+userID based  ->  all the user photos goes to single servers -this create to hot user  issue 
+    /un availability of all photos /un even distribution
+- ShardID+userID+seperate Incrementer for each Shard 
+
+Partition  based on photoID
+- PhotoID generator  -Single point failure so keep replica of key generator
+
+
+News feed 
+To create the News Feed for any given user, we need to fetch the latest,
+most popular, and relevant photos of the people the user follows
+
+Our application server will first get a list of people the user
+follows and then fetch metadata info of each user’s latest 100 photos. In
+the final step, the server will submit all these photos to our ranking
+algorithm, which will determine the top 100 photos
+
+But above process is time consuming so, Pre-generating the News Feed: We can have dedicated servers that are
+continuously generating users’ News Feeds and storing them in a‘UserNewsFeed’ table.
+
+Sending Stratagy of news feed.
+
+Pull 
+ Clients can pull the News-Feed contents from the server at a
+regular interval or manually whenever they need it. Possible problems
+with this approach are a) New data might not be shown to the users until
+clients issue a pull request b) Most of the time, pull requests will result in
+an empty response if there is no new data.
+
+Push
+Servers can push new data to the users as soon as it is available.
+To efficiently manage this, users have to maintain a Long Poll
+A possible problem with this
+approach is a user who follows a lot of people or a celebrity user who has
+millions of followers; in this case, the server has to push updates quite
+frequently.
+
+So Hybrid
+ We can move all the users
+who have a high number of followers to a pull-based model and only push
+data to those who have a few hundred (or thousand) follows
+
+to Show latest photo in feed , we can add epoch to photo Id we can use this to sort and build latest feed.
+
+Our service would need a massive-scale photo delivery system to serve
+globally distributed users. Our service should push its content closer to
+the user using a large number of geographically distributed photo cache servers and use CDNs 
