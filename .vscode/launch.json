@@ -1,0 +1,1043 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Features8",
+            "request": "launch",
+            "mainClass": "JavaFeatures.Features8",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Features9",
+            "request": "launch",
+            "mainClass": "JavaFeatures.Features9",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "TestLock",
+            "request": "launch",
+            "mainClass": "ThreadsExamples.TestLock",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "CountDownLatchTest",
+            "request": "launch",
+            "mainClass": "ThreadsExamples.CountDownLatchTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompatatorTest",
+            "request": "launch",
+            "mainClass": "LamdaExpresion.CompatatorTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CF",
+            "request": "launch",
+            "mainClass": "ThreadsExamples.CF",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cfutures",
+            "request": "launch",
+            "mainClass": "ThreadsExamples.Cfutures",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cfutures",
+            "request": "launch",
+            "mainClass": "Cfutures",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllThePermutationofString",
+            "request": "launch",
+            "mainClass": "AllThePermutationofString",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIndTheElementInTheSortedInfinteArray",
+            "request": "launch",
+            "mainClass": "Array.FIndTheElementInTheSortedInfinteArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIndTheElementSortedRotatedArray",
+            "request": "launch",
+            "mainClass": "Array.FIndTheElementSortedRotatedArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIndTheFirstNlastOcc",
+            "request": "launch",
+            "mainClass": "Array.FIndTheFirstNlastOcc",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIrstIndexOfElmInSortedArray",
+            "request": "launch",
+            "mainClass": "Array.FIrstIndexOfElmInSortedArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMaxKElementsInArray",
+            "request": "launch",
+            "mainClass": "Array.FindMaxKElementsInArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPairInSortedRotatedArray",
+            "request": "launch",
+            "mainClass": "Array.FindPairInSortedRotatedArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPivotInSortedRotatedArray",
+            "request": "launch",
+            "mainClass": "Array.FindPivotInSortedRotatedArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "Array.GFG",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch KLargestElements",
+            "request": "launch",
+            "mainClass": "Array.KLargestElements",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kadane",
+            "request": "launch",
+            "mainClass": "Array.Kadane",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreasingSeq",
+            "request": "launch",
+            "mainClass": "Array.LongestIncreasingSeq",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumJumps",
+            "request": "launch",
+            "mainClass": "Array.MinimumJumps",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnesIndex",
+            "request": "launch",
+            "mainClass": "Array.OnesIndex",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairOfSum",
+            "request": "launch",
+            "mainClass": "Array.PairOfSum",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PivotEleInRorateMatrix",
+            "request": "launch",
+            "mainClass": "Array.PivotEleInRorateMatrix",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateWithoutUsingExtraSpace",
+            "request": "launch",
+            "mainClass": "Array.RemoveDuplicateWithoutUsingExtraSpace",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Segregate0and1s",
+            "request": "launch",
+            "mainClass": "Array.Segregate0and1s",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetsOfList",
+            "request": "launch",
+            "mainClass": "Array.SubsetsOfList",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Array.Test",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Array.Test1",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test12",
+            "request": "launch",
+            "mainClass": "Array.Test12",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TripletSumToZero",
+            "request": "launch",
+            "mainClass": "Array.TripletSumToZero",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZigZag",
+            "request": "launch",
+            "mainClass": "Array.ZigZag",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArryRotation",
+            "request": "launch",
+            "mainClass": "ArryRotation",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BFS",
+            "request": "launch",
+            "mainClass": "BFS",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortestDistanceFromMultipleSource",
+            "request": "launch",
+            "mainClass": "BFSExample.ShortestDistanceFromMultipleSource",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortestPathFromSourceToDistination",
+            "request": "launch",
+            "mainClass": "BFSExample.ShortestPathFromSourceToDistination",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeToBST",
+            "request": "launch",
+            "mainClass": "BinaryTreeToBST",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitManupulation",
+            "request": "launch",
+            "mainClass": "BitManupulation",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BIt",
+            "request": "launch",
+            "mainClass": "BitManupulation.BIt",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElementAppearaOnce",
+            "request": "launch",
+            "mainClass": "BitManupulation.ElementAppearaOnce",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinChange",
+            "request": "launch",
+            "mainClass": "CoinChange",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountConsegtive1",
+            "request": "launch",
+            "mainClass": "CountConsegtive1",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllPathSum",
+            "request": "launch",
+            "mainClass": "DFS.AllPathSum",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryAllPaths",
+            "request": "launch",
+            "mainClass": "DFS.BinaryAllPaths",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DFSTranversal",
+            "request": "launch",
+            "mainClass": "DFS.DFSTranversal",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixTraversal",
+            "request": "launch",
+            "mainClass": "DFSExamples.MatrixTraversal",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack",
+            "request": "launch",
+            "mainClass": "DP.Knapsack",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumCostPath",
+            "request": "launch",
+            "mainClass": "DP.MinimumCostPath",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetSum",
+            "request": "launch",
+            "mainClass": "DP.SubsetSum",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdaptorExample2",
+            "request": "launch",
+            "mainClass": "DesignPattern.AdaptorExample2",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Singleton",
+            "request": "launch",
+            "mainClass": "DesignPattern.Singleton",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrategyExample",
+            "request": "launch",
+            "mainClass": "DesignPattern.StrategyExample",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestFactory",
+            "request": "launch",
+            "mainClass": "DesignPattern.TestFactory",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch V2toV1AdaptorExample",
+            "request": "launch",
+            "mainClass": "DesignPattern.V2toV1AdaptorExample",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch VisitorDesignPattern",
+            "request": "launch",
+            "mainClass": "DesignPattern.VisitorDesignPattern",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiameterOfBinaryTree",
+            "request": "launch",
+            "mainClass": "DiameterOfBinaryTree",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch EggDropDP",
+            "request": "launch",
+            "mainClass": "EggDropDP",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryWithResource",
+            "request": "launch",
+            "mainClass": "FileHandling.TryWithResource",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InnerClass",
+            "request": "launch",
+            "mainClass": "InnerClass",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterFaceTest",
+            "request": "launch",
+            "mainClass": "InterFaceTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LCS",
+            "request": "launch",
+            "mainClass": "LCS",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LRUCache",
+            "request": "launch",
+            "mainClass": "LRUCache",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDuplicatesInStreams",
+            "request": "launch",
+            "mainClass": "LamdaExpresion.FindDuplicatesInStreams",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LamdaExpressionExample",
+            "request": "launch",
+            "mainClass": "LamdaExpressionExample",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeftView",
+            "request": "launch",
+            "mainClass": "LeftView",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNumberList",
+            "request": "launch",
+            "mainClass": "LinkedList.AddNumberList",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetectLoopRemove",
+            "request": "launch",
+            "mainClass": "LinkedList.DetectLoopRemove",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlattenLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.FlattenLinkedList",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeLinkedList",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeSort",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "LinkedList.Palindrome",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.ReverseLinkedList",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "LongestIncreasingSubsequence",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Manacher",
+            "request": "launch",
+            "mainClass": "Manacher",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumCostPath(1)",
+            "request": "launch",
+            "mainClass": "Matrix.MinimumCostPath",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SprialMatrix",
+            "request": "launch",
+            "mainClass": "Matrix.SprialMatrix",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfStream",
+            "request": "launch",
+            "mainClass": "MedianOfStream",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MemoryCheck",
+            "request": "launch",
+            "mainClass": "MemoryCheck",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumJumps(1)",
+            "request": "launch",
+            "mainClass": "MinimumJumps",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumNumberSwaps",
+            "request": "launch",
+            "mainClass": "MinimumNumberSwaps",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancedBrackets",
+            "request": "launch",
+            "mainClass": "Mise.BalancedBrackets",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Mise.Car",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountParenthesis",
+            "request": "launch",
+            "mainClass": "Mise.CountParenthesis",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceTest",
+            "request": "launch",
+            "mainClass": "Mise.InheritanceTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntervalMerge",
+            "request": "launch",
+            "mainClass": "Mise.IntervalMerge",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack(1)",
+            "request": "launch",
+            "mainClass": "Mise.Knapsack",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumSubArrayOfSizeK",
+            "request": "launch",
+            "mainClass": "Mise.MaxSumSubArrayOfSizeK",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinAbsDiffBtwSubsets",
+            "request": "launch",
+            "mainClass": "Mise.MinAbsDiffBtwSubsets",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberWithoutConsegativeOnes",
+            "request": "launch",
+            "mainClass": "Mise.NumberWithoutConsegativeOnes",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OpenText",
+            "request": "launch",
+            "mainClass": "Mise.OpenText",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitionSumSet",
+            "request": "launch",
+            "mainClass": "Mise.PartitionSumSet",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursionTest",
+            "request": "launch",
+            "mainClass": "Mise.RecursionTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindow",
+            "request": "launch",
+            "mainClass": "Mise.SlidingWindow",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubstringWIthNonRepeatingChar",
+            "request": "launch",
+            "mainClass": "Mise.SubstringWIthNonRepeatingChar",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryWithResource(1)",
+            "request": "launch",
+            "mainClass": "Mise.TryWithResource",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch WaterTrap",
+            "request": "launch",
+            "mainClass": "Mise.WaterTrap",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplyNumber",
+            "request": "launch",
+            "mainClass": "MultiplyNumber",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MutilThreading",
+            "request": "launch",
+            "mainClass": "MutilThreading",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nqueens",
+            "request": "launch",
+            "mainClass": "Nqueens",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromNumber",
+            "request": "launch",
+            "mainClass": "PalindromNumber",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternSearchKMP",
+            "request": "launch",
+            "mainClass": "PatternSearchKMP",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "Practice.Sorting.HeapSort",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort(1)",
+            "request": "launch",
+            "mainClass": "Practice.Sorting.MergeSort",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "Practice.Sorting.QuickSort",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDiagonally",
+            "request": "launch",
+            "mainClass": "PrintDiagonally",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetSum(1)",
+            "request": "launch",
+            "mainClass": "Recursion.SubsetSum",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegularExp",
+            "request": "launch",
+            "mainClass": "RegularExp",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateBy180",
+            "request": "launch",
+            "mainClass": "RotateBy180",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSumSubArray",
+            "request": "launch",
+            "mainClass": "SlidingWindow.MaximumSumSubArray",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoRepeatSubstring",
+            "request": "launch",
+            "mainClass": "SlidingWindow.NoRepeatSubstring",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prb1",
+            "request": "launch",
+            "mainClass": "Solution.Prb1",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prb2",
+            "request": "launch",
+            "mainClass": "Solution.Prb2",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuyAndSell",
+            "request": "launch",
+            "mainClass": "StockBuyAndSell",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuySell",
+            "request": "launch",
+            "mainClass": "StockBuySell",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllPermutation",
+            "request": "launch",
+            "mainClass": "Strings.AllPermutation",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LCS(1)",
+            "request": "launch",
+            "mainClass": "Strings.LCS",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongCommonSubstring",
+            "request": "launch",
+            "mainClass": "Strings.LongCommonSubstring",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoRepeatSubstring(1)",
+            "request": "launch",
+            "mainClass": "Strings.NoRepeatSubstring",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetSum(2)",
+            "request": "launch",
+            "mainClass": "SubsetSum",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1(1)",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadSleep",
+            "request": "launch",
+            "mainClass": "ThreadSleep",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDownLatchTest",
+            "request": "launch",
+            "mainClass": "Threads.CountDownLatchTest",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomeBlockingQueue",
+            "request": "launch",
+            "mainClass": "Threads.CustomeBlockingQueue",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumbers",
+            "request": "launch",
+            "mainClass": "Threads.PrintNumbers",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintOddEven",
+            "request": "launch",
+            "mainClass": "Threads.PrintOddEven",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProducerAndConsumer",
+            "request": "launch",
+            "mainClass": "Threads.ProducerAndConsumer",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sync",
+            "request": "launch",
+            "mainClass": "Threads.Sync",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestLock",
+            "request": "launch",
+            "mainClass": "Threads.TestLock",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TheadOne",
+            "request": "launch",
+            "mainClass": "Threads.TheadOne",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopKFrequentElements",
+            "request": "launch",
+            "mainClass": "TopKFrequentElements",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopViewOfBinaryTree",
+            "request": "launch",
+            "mainClass": "TopViewOfBinaryTree",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckTwoTreesAreIdentical",
+            "request": "launch",
+            "mainClass": "Tree.CheckTwoTreesAreIdentical",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAllTreePaths",
+            "request": "launch",
+            "mainClass": "Tree.FindAllTreePaths",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDiameterOfBinaryTree",
+            "request": "launch",
+            "mainClass": "Tree.FindDiameterOfBinaryTree",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.LevelOrderTraversal",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeHeight",
+            "request": "launch",
+            "mainClass": "Tree.TreeHeight",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeViews",
+            "request": "launch",
+            "mainClass": "Tree.TreeViews",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerticalOrderBtree",
+            "request": "launch",
+            "mainClass": "Tree.VerticalOrderBtree",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeTraversal",
+            "request": "launch",
+            "mainClass": "TreeTraversal",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trie",
+            "request": "launch",
+            "mainClass": "Trie",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerticalOrderTraversal",
+            "request": "launch",
+            "mainClass": "VerticalOrderTraversal",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch WildCardMatching",
+            "request": "launch",
+            "mainClass": "WildCardMatching",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeatAllocation",
+            "request": "launch",
+            "mainClass": "practise.SeatAllocation",
+            "projectName": "src_136a55cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch takeWhile",
+            "request": "launch",
+            "mainClass": "streamExamples.takeWhile",
+            "projectName": "src_136a55cd"
+        }
+    ]
+}
