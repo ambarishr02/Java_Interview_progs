@@ -33,6 +33,15 @@ public class LinkedListUtil {
     public void setNext(SingleLinkedNode next) {
       this.next = next;
     }
+
+    public static void printSingleLinkedList(SingleLinkedNode n1) {
+      SingleLinkedNode current = n1;
+      while (current != null) {
+        System.out.print(current.getData() + "->");
+        current = current.getNext();
+      }
+      System.out.println("NULL");
+    }
   }
 
   public static SingleLinkedNode createSingleLinkedList(int arr[]) {
@@ -48,12 +57,4 @@ public class LinkedListUtil {
     return node;
   }
 
-  public static void printSingleLinkedList(SingleLinkedNode node) {
-    SingleLinkedNode current = node;
-    while (current != null) {
-      System.out.print(current.getData() + "->");
-      current = current.getNext();
-    }
-    System.out.println("NULL");
-  }
 }

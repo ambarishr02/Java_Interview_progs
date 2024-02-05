@@ -7,7 +7,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-import javafx.util.Pair;
+ class Pair<K, V> {
+
+  private K key;
+  private V value;
+
+  public Pair(){
+
+  }
+  public Pair(K key, V value) {
+  this.key = key;
+  this.value = value;
+  }
+
+  public K getKey()    { return key; }
+  public V getValue() { return value; }
+}
 
 public class ChepestFlightsWithKStops {
 
@@ -20,17 +35,11 @@ public class ChepestFlightsWithKStops {
     System.out.println(min);
   }
 
-  private static int findCheapestPrice(
-    int n,
-    int[][] flights,
-    int src,
-    int dst,
-    int k
-  ) {
+  @SuppressWarnings({ "rawtypes", "unchecked" })
+  private static int findCheapestPrice(int n,int[][] flights,int src,int dst,int k) {
     Map<Integer, List<Pair<Integer, Integer>>> graph = generateGraph(flights);
-
     Queue<Pair<Integer, Integer>> q = new LinkedList<>();
-    q.add(new Pair<>(src, 0));
+    q.add(new Pair(src,0));
     int stops = 0;
     int minCost = Integer.MAX_VALUE;
     while (stops <= k && !q.isEmpty()) {
@@ -61,11 +70,10 @@ public class ChepestFlightsWithKStops {
     return minCost == Integer.MAX_VALUE ? -1 : minCost;
   }
 
-  private static Map<Integer, List<Pair<Integer, Integer>>> generateGraph(
-    int[][] flights
-  ) {
-    Map<Integer, List<Pair<Integer, Integer>>> graph = new HashMap<>();
 
+  @SuppressWarnings({ "rawtypes", "unchecked" })
+  private static Map<Integer, List<Pair<Integer, Integer>>> generateGraph(int[][] flights) {
+    Map<Integer, List<Pair<Integer, Integer>>> graph = new HashMap<>();
     for (int f[] : flights) {
       int source = f[0];
       int dst = f[1];
@@ -73,8 +81,8 @@ public class ChepestFlightsWithKStops {
       if (!graph.containsKey(source)) {
         graph.put(source, new ArrayList<>());
       }
-
-      graph.get(source).add(new Pair<>(dst, price));
+      Pair p=new Pair<Integer,Integer>(dst, price);
+      graph.get(source).add(p);
     }
     return graph;
   }

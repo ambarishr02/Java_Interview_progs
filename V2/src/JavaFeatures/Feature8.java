@@ -1,9 +1,13 @@
 package JavaFeatures;
 
+import java.util.Comparator;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
+
+import Util.User;
+
 
 public class Feature8 {
 
@@ -76,4 +80,17 @@ public class Feature8 {
         });
     }
 
+
+    private static void  comparatorExample(){
+
+     Comparator<User> NameComparator   =Comparator.comparing(User::getFname);
+
+     Comparator<User> UserComparatorChaninng = Comparator.comparing(User::getAge).thenComparing(User::getFname);
+
+     Comparator<User> UserComparator =( a, b)->a.getAge().compareTo(b.getAge());
+
+    }
+
 }
+
+

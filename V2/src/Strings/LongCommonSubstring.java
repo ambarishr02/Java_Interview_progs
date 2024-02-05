@@ -33,7 +33,7 @@ public class LongCommonSubstring {
 	}
 	
 	public static void main(String[] args) {
-		String s1="ABCDE"; String s2="BC";
+		String s1="ABDC"; String s2="BC";
 		commonSubstring(s1.toCharArray(),s2.toCharArray(), s1.length(), s2.length());
 	}
 

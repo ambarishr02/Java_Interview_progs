@@ -4,8 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * Go Top: (x, y) ——> (x – 1, y) Go Left: (x, y) ——> (x, y – 1) Go Down: (x, y)
- * ——> (x + 1, y) Go Right: (x, y) ——> (x, y + 1)
+ * Go Top: (x, y) ï¿½ï¿½> (x ï¿½ 1, y) Go Left: (x, y) ï¿½ï¿½> (x, y ï¿½ 1) Go Down: (x, y)
+ * ï¿½ï¿½> (x + 1, y) Go Right: (x, y) ï¿½ï¿½> (x, y + 1)
  * 
  * @author ambar
  *         https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
@@ -17,8 +17,13 @@ public class ShortestPathFromSourceToDistination {
 	private static final int[] col = { 0, -1, 1, 0 };
 
 	public static void main(String[] args) {
-		int[][] mat = { { 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 }, { 0, 1, 1, 1, 1, 1, 0, 1, 0, 1 },
-				{ 0, 0, 1, 0, 1, 1, 1, 0, 0, 1 }, { 1, 0, 1, 1, 1, 0, 1, 1, 0, 1 }, { 0, 0, 0, 1, 0, 0, 0, 1, 0, 1 },
+		int[][] mat = { 
+			
+		{ 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 }, 
+		{ 0, 1, 1, 1, 1, 1, 0, 1, 0, 1 },
+		{ 0, 0, 1, 0, 1, 1, 1, 0, 0, 1 }, 
+		{ 1, 0, 1, 1, 1, 0, 1, 1, 0, 1 }, 
+		{ 0, 0, 0, 1, 0, 0, 0, 1, 0, 1 },
 				{ 1, 0, 1, 1, 1, 0, 0, 1, 1, 0 }, { 0, 0, 0, 0, 1, 0, 0, 1, 0, 1 }, { 0, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
 				{ 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 }, { 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 }, };
 
@@ -26,9 +31,9 @@ public class ShortestPathFromSourceToDistination {
 		System.out.println(min_dist);
 	}
 
-	private static int findShortestPathLength(int[][] mat, int i, int j, int x, int y) {
+	private static int findShortestPathLength(int[][] mat, int srcX, int srcY, int dstX, int dstY) {
 
-		if (mat == null || mat.length == 0 || mat[i][j] == 0 || mat[x][y] == 0) {
+		if (mat == null || mat.length == 0 || mat[srcX][srcY] == 0 || mat[dstX][dstY] == 0) {
 			return -1;
 		}
 
@@ -37,25 +42,25 @@ public class ShortestPathFromSourceToDistination {
 		boolean[][] visited = new boolean[M][N];
 
 		Queue<MazeNode> que = new ArrayDeque<>();
-		visited[i][j] = true;
-		que.add(new MazeNode(i, j, 0));
+		visited[srcX][srcY] = true;
+		que.add(new MazeNode(srcX, srcY, 0));
 
 		int min_dist = Integer.MAX_VALUE;
 		while (!que.isEmpty()) {
 			MazeNode node = que.poll();
-			i=node.x;
-			j=node.y;
+			srcX=node.x;
+			srcY=node.y;
 			int dist=node.distance;
 			
-			if(i==x && j==y) {
+			if(srcX==dstX && srcY== dstY) {
 				min_dist=dist;
 				break;
 			}
 			
 			for(int k=0;k<4;k++) {
-				if(isValid(mat, visited, i+row[k],j+col[k])) {
-					visited[i+row[k]][j+col[k]]=true;
-					que.add(new MazeNode(i+row[k],j+col[k],dist+1));
+				if(isValid(mat, visited, srcX+row[k],srcY+col[k])) {
+					visited[srcX+row[k]][srcY+col[k]]=true;
+					que.add(new MazeNode(srcX+row[k],srcY+col[k],dist+1));
 				}
 			}
 			

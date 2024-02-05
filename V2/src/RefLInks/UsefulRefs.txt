@@ -1,0 +1,11 @@
+Java MuttiThreading and  concurrnecy Interview Questions 
+    https://java2blog.com/java-multithreading-interview-questions-and-answers/#29_What_happens_if_you_don8217t_override_run_method_of_Thread_class
+
+Kill thread :
+   https://howtodoinjava.com/java/multi-threading/killing-java-threads/
+
+Thread Shutdown, ShutdownNow and AwaitTermination
+  https://howtodoinjava.com/java/multi-threading/executorservice-shutdown/
+
+Virtual Threads  Java-19
+   https://medium.com/@RamLakshmanan/java-virtual-threads-easy-introduction-44d96b8270f8  

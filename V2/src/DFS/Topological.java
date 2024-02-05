@@ -21,15 +21,17 @@ public class Topological {
     while (!stk.isEmpty()) System.out.print(stk.pop() + " ");
   }
 
+  
   private static void sort(Graph g,int v,boolean[] visited,Stack<Integer> stk) {
     
     visited[v] = true;
     Iterator<Integer> itr = g.getAdj().get(v).iterator();
     while (itr.hasNext()) {
       Integer nextPossibleNode = itr.next();
-      if (!visited[nextPossibleNode]) sort(g, nextPossibleNode, visited, stk);
+      if (!visited[nextPossibleNode]) 
+      sort(g, nextPossibleNode, visited, stk);
     }
-    stk.size();
+    //stk.size();
     stk.push(v);
   
   }
@@ -79,14 +81,14 @@ public class Topological {
     g.addEdge(2, 3);
     g.addEdge(3, 1);
 
-    //  g.addEdge(2, 5);
+    // g.addEdge(2, 5);
     // g.addEdge(0, 5);
     // g.addEdge(0, 4);
     // g.addEdge(1, 4);
     // g.addEdge(3, 2);
     // g.addEdge(1, 3);
 
-    TopologicalSort(g, 6);
-   //topologicalUsingBFS(g,6);
+   // TopologicalSort(g, 6);
+   topologicalUsingBFS(g,6);
   }
 } 

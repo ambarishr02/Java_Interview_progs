@@ -1,0 +1,37 @@
+Total Seconds per day : 86400
+
+2^10 :1024
+2^9 : 512
+2^8 : 256
+
+
+10^4 : 10 Thousand 
+
+10^6 : Million
+10^9 : Billin
+10^12  : Trillion
+10^15 : Peta
+
+
+ k =kb  m=mb  g= gb 
+k*K = mb
+m*m = gb
+
+
+1 Million Transaction /day =  ~12 Transaction/Seconds
+
+1 Million Transaction /day  = ~ 700 Transaction/Minute 
+
+1 Million Transaction /day = ~ 4200 Transaction/Hours 
+
+
+Request for  seconds for service   (Transaction per second) (TPS)
+
+Query for seconds for DB
+
+DAU Daily active customers 
+
+Peek Transactions
+
+
+

@@ -3,6 +3,7 @@ package JavaFeatures;
 
 record Person(String fname, String lname, int age) {
 }
+
 public class Feature16 {
     
     public static void main(String[] args) {

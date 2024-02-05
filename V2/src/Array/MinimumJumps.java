@@ -36,7 +36,7 @@ public class MinimumJumps {
 	}
 	
 	public static void main(String[] args) {
-		int arr[]= { 1, 3, 6, 3, 2, 3, 6, 8, 9, 5 };
+		int arr[]= { 3,4,2,1,6};
 		System.out.println(jumps(arr));
 	}
 }
